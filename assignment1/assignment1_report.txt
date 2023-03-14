@@ -7,7 +7,7 @@ This dataset has severe class imbalance problem. To overcome the same I did rand
 Then applied categorical naivebayes and decision tree algorithms
 For this dataset, I chose to use recall score as the preferred performance metric. Because, I want to make sure that I call most of the people who are going to subscribe to a term deposit(recall for 'yes' class) and I want to make sure that I do not call most of the people who are not going to subscribe to a term deposit(recall for 'no' class)
 Using NaiveBayes, recall for 'yes' class turns out to be 0.68 and recall for 'no' class turns out to be 0.81.
-Uing Decision Tress, recall for 'yes' class turns out to be 0.55 and recall for 'no' class turns out to be 0.92
+Uing Decision Trees, recall for 'yes' class turns out to be 0.55 and recall for 'no' class turns out to be 0.92
 If we adopt the NaiveBayes model, we will end up making slightly more calls but we will also get slightly more people to subscribe to a term deposit.
 If we adopt the Decision Tree model, we will end up making slightly less calls but we will also get slightly less people to subscribe to a term deposit.
 
@@ -24,6 +24,6 @@ This dataset has slight class imbalance problem. To overcome the same I did rand
 Then applied categorical naivebayes and decision tree algorithms.
 For this dataset,I chose to use f1-score for the class with label 1 as the preferred performance metric. Because, this is an imbalanced dataset(number of hit movies is way less than number of flop movies) and I want to make sure that I predict most of the hit movies as hit(recall for class with label 1), and i predict very few movies as hit if the are actually flop(precision for class with label 1)
 Using NaiveBayes, f1 score for class with label 1 turns out to be 0.67
-Uing Decision Tress, f1 score for class with label 1 turns out to be 0.60
+Uing Decision Trees, f1 score for class with label 1 turns out to be 0.60
 
 Hence Naive bayes has performed better in both datasets.
